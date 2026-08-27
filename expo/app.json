@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "STEKO",
+    "slug": "xcem6jc8636uqt0ren249",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "rork-xcem6jc8636uqt0ren249",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0D11"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "name": "STEKO",
+      "shortName": "STEKO",
+      "backgroundColor": "#0D0F13",
+      "themeColor": "#2B5BE3"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://gosteko77.github.io/STEKO/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "baseUrl": "/STEKO"
+    }
+  }
+}
