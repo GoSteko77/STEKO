@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@rork-ai/toolkit-sdk": "latest"
+  }
+}
